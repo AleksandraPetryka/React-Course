@@ -1,0 +1,9 @@
+.app {
+    padding: 40px;
+
+}
+
+.app__content {
+    max-width: 700px;
+    margin: auto;
+}

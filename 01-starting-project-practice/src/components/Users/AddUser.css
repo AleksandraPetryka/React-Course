@@ -1,0 +1,50 @@
+.form {
+    background-color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+}
+
+.form__input {
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    font: inherit;
+    display: block;
+    padding: 0.15rem;
+}
+
+.form__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: #4f005f;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.form__input::-webkit-outer-spin-button,
+.form__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.form__input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form__button {
+    background-color: #4C0B56;
+    color: white;
+    padding: 5px 20px;
+}
