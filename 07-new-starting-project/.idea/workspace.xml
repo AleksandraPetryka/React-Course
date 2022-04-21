@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0c542a5-271b-4b9c-aef3-4d9faf776fd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/meetups/MeetupItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/meetups/MeetupItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/meetups/MeetupList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/meetups/MeetupList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/meetups/NewMeetupForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/meetups/NewMeetupForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AllMeetups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NewMeetup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/01-starting-project-redux.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-starting-project-class-components/src/components/UserFinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/../01-starting-project-class-components/src/components/UserFinder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-starting-project-class-components/src/components/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../01-starting-project-class-components/src/components/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-starting-project-forms-and-inputs/src/components/SimpleInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../01-starting-project-forms-and-inputs/src/components/SimpleInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-starting-project-nobugs/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../01-starting-project-nobugs/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-starting-project-router/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../01-starting-project-router/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@npmcli/fs/node_modules/lru-cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@npmcli/fs/node_modules/lru-cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@npmcli/fs/node_modules/lru-cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@npmcli/fs/node_modules/lru-cache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@npmcli/fs/node_modules/lru-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@npmcli/fs/node_modules/lru-cache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/prettier/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/prettier/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/prettier/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/prettier/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/prettier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/prettier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/uglify-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/uglify-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/uglify-js/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/uglify-js/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/uglify-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/uglify-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/eslint-plugin/node_modules/lru-cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/eslint-plugin/node_modules/lru-cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/eslint-plugin/node_modules/lru-cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/eslint-plugin/node_modules/lru-cache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/eslint-plugin/node_modules/lru-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/eslint-plugin/node_modules/lru-cache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/typescript-estree/node_modules/lru-cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/typescript-estree/node_modules/lru-cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/typescript-estree/node_modules/lru-cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/typescript-estree/node_modules/lru-cache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@typescript-eslint/typescript-estree/node_modules/lru-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@typescript-eslint/typescript-estree/node_modules/lru-cache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/agents.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/agents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-masks.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-masks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AX.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BB.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BJ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BJ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CV.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CX.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DJ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DJ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ER.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ER.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ES.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ES.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ET.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ET.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FJ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FJ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GB.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GP.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GQ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ID.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ID.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IQ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JP.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KP.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LB.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LV.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ME.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ME.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ML.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ML.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MP.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MQ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MV.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MX.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NP.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/OM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/OM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/QA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/QA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SB.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ST.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SV.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TD.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TH.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TJ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TJ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TO.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TR.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TV.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/US.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/US.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UY.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UY.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VG.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/WF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/WF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/WS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/WS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/YE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/YE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/YT.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/YT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZA.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZW.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-af.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-an.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-an.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-as.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-as.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-na.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-na.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-oc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-sa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-sa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-ww.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-ww.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dom-serializer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/domelementtype/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es5-ext/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es5-ext/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es5-ext/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es5-ext/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-course/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-course/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-course/src/components/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-course/src/components/Backdrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-course/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-course/src/components/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-course/src/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-course/src/components/Todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/Auth.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/Counter.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/UserProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/components/UserProfile.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux/src/store/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27dtuFvBYommu57lApNuSCSJVWL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\Code\React-Course\07-new-starting-project\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0c542a5-271b-4b9c-aef3-4d9faf776fd1" name="Changes" comment="" />
+      <created>1649662016951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649662016951</updated>
+      <workItem from="1649662018103" duration="354000" />
+      <workItem from="1649662435671" duration="19183000" />
+      <workItem from="1650526716277" duration="337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
