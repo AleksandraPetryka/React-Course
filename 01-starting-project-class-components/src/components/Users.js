@@ -42,6 +42,9 @@ class Users extends Component {
   }
 }
 
+export default Users;
+
+// When it's a function component:
 
 // const Users = () => {
 //   const [showUsers, setShowUsers] = useState(true);
@@ -68,4 +71,4 @@ class Users extends Component {
 //   );
 // };
 
-export default Users;
+

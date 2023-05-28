@@ -20,7 +20,7 @@ class UserFinder extends Component {
     //we wanna fetch the users when this component is rendered for the first time
     //Send http request...
     this.setState({filteredUsers: this.context.users});
-    //we don't need an if check because componentDidMount will run only once, when the component was initially was rendered for the first time
+    //we don't need an if check because componentDidMount will run only once, when the component was initially rendered for the first time
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -55,6 +55,10 @@ class UserFinder extends Component {
   }
 }
 
+export default UserFinder;
+
+//How would function component look:
+
 // const UserFinder = () => {
 //   const [filteredUsers, setFilteredUsers] = useState(DUMMY_USERS);
 //   const [searchTerm, setSearchTerm] = useState('');
@@ -79,5 +83,3 @@ class UserFinder extends Component {
 //     </Fragment>
 //   );
 // };
-
-export default UserFinder;

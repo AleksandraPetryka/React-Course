@@ -36,16 +36,16 @@ const SimpleInput = (props) => {
     console.log(`log: enteredName = `, enteredName);
     console.log(`log: enteredEmail = `, enteredEmail);
 
-    // dwoma podejściami doszliśmy do tego samego efeku
-    // teraz enteredValue i enteredName przyjmują wartość inputu
-    // which one i better
-    // if you are only interested in it once, when the form i submitted, a ref might be better
+    // dwoma podejściami doszliśmy do tego samego efeku (useRef i useState)
+    // which one is better?
+    // if you are only interested in it once, when the form is submitted, a ref might be better
     //  because logging and updating the state value with every keystroke is a bit overkill then
-    // However , if you of course  need the value, the entered value after every keystroke, for example, for instant validation
+    // However , if you need the value, the entered value after every keystroke, for example, for instant validation
     //  then using the state is better, because with the ref you can't really do that.
     // With state you can also reset the entered input.
 
     // nameInputRef.current.value = ''; => NOT IDEAL, DON'T MANIPULATE THE DOM
+
     resetNameInput();
     resetEmailInput();
   };
